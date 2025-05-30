@@ -43,9 +43,7 @@ $tarefas = $stmt->get_result();
 <?php endwhile; ?>
 
 <?php else: ?>
-    <script>
-        alert("Nenhuma tarefa encontrada.");
-    </script>
+    <p>Nenhuma tarefa encontrada.</p>
 <?php endif; ?>
 
 <?php include '../templates/footer.php'; ?>
