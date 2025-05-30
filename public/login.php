@@ -7,7 +7,7 @@
         <input type="text" name="username" name="Usuário" required>
         <label for="senha">Senha</label>
         <input type="password" id="senha" name="senha" required>
-        <button type="submit">Registrar</button>
+        <button type="submit">Entrar</button>
     </form>
     <a href="register.php">Não possui cadastro? Clique aqui</a>
 
